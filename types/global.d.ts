@@ -1,0 +1,41 @@
+declare let process: {
+  env: {
+    SERVER_PORT: number;
+    CLIENT_CORS_ORIGIN: string;
+    DB_AU_PROTOCOL: string;
+    DB_AU_URL: string;
+    DB_AU_USER: string;
+    DB_AU_PASS: string;
+    STORAGE_REGION: string;
+    STORAGE_ENDPOINT_ORIGIN: string;
+    STORAGE_KEY_ID: string;
+    STORAGE_ACCESS_KEY: string;
+    OPENAI_API_KEY: string;
+    KAFKA_BROKER: string;
+    KAFKA_SASL_MECHANISM: string;
+    KAKFA_SASL_USERNAME: string;
+    KAFKA_SASL_PASSWORD: string;
+    KAFKA_SSL_CERT: string;
+    TWILIO_ACCOUNT_SID: string;
+    TWILIO_AUTH_TOKEN: string;
+    TWILIO_SERVICE_ID: string;
+    CLERK_SECRET_KEY: string;
+    CLERK_PUBLISHABLE_KEY: string;
+    CLERK_JWT_KEY: string;
+    STRIPE_API_KEY: string;
+    STRIPE_WEBHOOK_SIGNING_KEY: string;
+    DEEPSEEK_SECRET_KEY: string;
+    AWS_ACCESS_KEY_ID: string;
+    AWS_SECRET_ACCESS_KEY: string;
+    SALESFORCE_KEY: string;
+    SALESFORCE_VERSION: string;
+    SALESFORCE_PROGRAM: string;
+    SALESFORCE_SECRET: string;
+    SALESFORCE_INSTANCE: string;
+  };
+  exit: (code: number) => void;
+  stdin: {
+    resume: () => void;
+  };
+  on: (event: string, callback: () => void) => void;
+};

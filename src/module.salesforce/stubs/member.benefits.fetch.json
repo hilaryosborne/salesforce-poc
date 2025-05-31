@@ -1,0 +1,17 @@
+{
+  "memberBenefits": [
+    {
+      "benefitId": "0jiQE0000002DKXYA2",
+      "benefitName": "Early Access to Deals",
+      "benefitTypeId": "0jhQE0000002AXxYAM",
+      "benefitTypeName": "common",
+      "createdRecordId": null,
+      "createdRecordName": null,
+      "description": null,
+      "endDate": null,
+      "isActive": true,
+      "memberBenefitStatus": null,
+      "startDate": null
+    }
+  ]
+}

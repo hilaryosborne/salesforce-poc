@@ -1,0 +1,74 @@
+{
+  "additionalLoyaltyProgramMemberFields": {
+    "POSIntegration__posOrderCount__c": null,
+    "POSIntegration__posName__c": null,
+    "POSIntegration__posMemberId__c": null,
+    "POSIntegration__posMemberPhone__c": null
+  },
+  "associatedAccount": null,
+  "associatedContact": {
+    "contactId": "003QE00000C99y3YAB",
+    "email": "h.t.osborne@gmail.com",
+    "firstName": "Hilary",
+    "lastName": "Osborne"
+  },
+  "canReceivePartnerPromotions": false,
+  "canReceivePromotions": false,
+  "enrollmentChannel": "POS",
+  "enrollmentDate": "2025-05-30",
+  "groupCreatedByMember": null,
+  "groupName": null,
+  "lastActivityDate": null,
+  "loyaltyProgramMemberId": "0lMQE0000002yCz2AI",
+  "loyaltyProgramName": "Flighties",
+  "memberCurrencies": [
+    {
+      "additionalLoyaltyMemberCurrencyFields": {},
+      "escrowPointsBalance": 0,
+      "expirablePoints": 0,
+      "lastAccrualProcessedDate": null,
+      "lastEscrowProcessedDate": null,
+      "lastExpirationProcessRunDate": null,
+      "lastPointsAggregationDate": null,
+      "lastPointsResetDate": null,
+      "loyaltyMemberCurrencyName": "FlightPoints",
+      "loyaltyProgramCurrencyId": "0lcQE0000000MYPYA2",
+      "loyaltyProgramCurrencyName": null,
+      "memberCurrencyId": "0lzQE0000000MerYAE",
+      "nextQualifyingPointsResetDate": "2025-05-31",
+      "pointsBalance": 0,
+      "qualifyingPointsBalanceBeforeReset": 0,
+      "totalEscrowPointsAccrued": 0,
+      "totalEscrowRolloverPoints": 0,
+      "totalPointsAccrued": 0,
+      "totalPointsExpired": 0,
+      "totalPointsRedeemed": 0
+    }
+  ],
+  "memberStatus": "Active",
+  "memberTiers": [
+    {
+      "additionalLoyaltyMemberTierFields": {},
+      "areTierBenefitsAssigned": false,
+      "loyaltyMemberTierId": "0lyQE0000002xaHYAQ",
+      "loyaltyMemberTierName": "World Explorer",
+      "tierChangeReason": null,
+      "tierChangeReasonType": null,
+      "tierEffectiveDate": "2025-05-30",
+      "tierExpirationDate": null,
+      "tierGroupId": "0ltQE0000000Q5lYAE",
+      "tierGroupName": "world-360",
+      "tierId": "0lgQE0000000R8HYAU",
+      "tierSequenceNumber": 1
+    }
+  ],
+  "memberType": "Individual",
+  "membershipEndDate": null,
+  "membershipLastRenewalDate": null,
+  "membershipNumber": "129382932",
+  "referredBy": null,
+  "relatedCorporateMembershipNumber": null,
+  "transactionJournalStatementFrequency": "Monthly",
+  "transactionJournalStatementLastGeneratedDate": null,
+  "transactionJournalStatementMethod": "Mail"
+}
